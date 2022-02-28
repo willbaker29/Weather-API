@@ -4,10 +4,10 @@ import requests
 import time
 
   
-key = 'be9ebdc8-b383-490f-b8b6-33d9a4dd67de' # API Key
+key = '<KEY>' # API Key
 loc_id = 3809 #MET Office Location ID (RNAS Couldrose)
 
-api_request = 'http://datapoint.metoffice.gov.uk/public/data/val/wxobs/all/json/3809?res=hourly&key=be9ebdc8-b383-490f-b8b6-33d9a4dd67de' # Request
+api_request = 'http://datapoint.metoffice.gov.uk/public/data/val/wxobs/all/json/3809?res=hourly&key=<KEY>' # Request
 
 def get_weather():
     """Performs an API request 
