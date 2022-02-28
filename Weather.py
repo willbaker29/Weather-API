@@ -56,6 +56,10 @@ time_tag = Label(root, text='Error')
 time_tag.pack()
 time_tag.place(x=50, y=250)
 
+loc_label = Label(root, text='RNAS Couldrose, Cornwall UK')
+loc_label.pack()
+loc_label.place(x=50, y=300)
+
 #Populate data labels from get_weather function
 weather = get_weather()
 if weather:
